@@ -5,7 +5,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
     baseQuery: fetchBaseQuery({
         baseUrl: 'https://shazam-core.p.rapidapi.com/v1',
         prepareHeaders: (headers) => {
-            headers.set('X-RapidAPI-Key', '484d0ed8bdmshd04b90a20001392p167a12jsna1ec0b773297')
+            headers.set('X-RapidAPI-Key', 'APIKEY')
        
             return headers;
         },
