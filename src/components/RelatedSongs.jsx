@@ -1,12 +1,15 @@
-import SongBar from '../components/SongBar';
+import React from 'react';
 
-const RelatedSongs = ({ data, isPlaying, activeSong, handlePauseClick, handlePlayClick, artistId }) => (
+import SongBar from './SongBar';
+
+const RelatedSongs = ({ data, artistId, isPlaying, activeSong, handlePauseClick, handlePlayClick }) => (
   <div className="flex flex-col">
-    <h2 className="text-white font-bold text-3xl">Related Songs:</h2>
-    <div className="mt-6 w-full flex flex-col">
+    <h1 className="font-bold text-3xl text-white">Related Songs:</h1>
+
+    <div className="mt-6 w-full flex flex-col  bg-white/5 bg-opacity-80 backdrop-blur-sm">
       {data?.map((song, i) => (
         <SongBar
-          key={`${song.key}-${artistId}`}
+          key={`${artistId}-${song.key}-${i}`}
           song={song}
           i={i}
           artistId={artistId}
