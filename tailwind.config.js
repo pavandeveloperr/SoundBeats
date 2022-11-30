@@ -2,6 +2,13 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
+    fontSize: {
+      sm: '15px',
+      // base: '1rem',
+      // xl: '1rem',
+      // lg: '40px',
+      // md: '20px',
+    },
     extend: {
       colors: {
         black: '#191624',
