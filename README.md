@@ -6,6 +6,9 @@ Check out the complete project requirements [here](https://docs.google.com/docum
 
 # Preview 
 
+![desktop-view](src/assets/desktop-view.png)
+![mobile-view](src/assets/mobile-view.png)
+
 
 # Contributing
 
