@@ -131,7 +131,7 @@ Here we are going to focus on 2. Creating a Topical Branch:
 
 4. Go to [Pull Requests](https://github.com/pavandeveloperr/SoundBeats/pulls) and click on the `New Pull Request` button.
 
-5. Select the `main` branch as the `base` branch and the `jsm-dev` branch as the `compare` branch.
+5. Select the `main` branch as the `base` branch and the `pavan-dev` branch as the `compare` branch.
 
 6. Follow the template and fill in the proper information for the pull request.
 
